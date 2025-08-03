@@ -1,32 +1,66 @@
 body {
   background: #f8fafc;
 }
-
-.bg-header {
-  background: #0d6efd;
+.profile-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
 }
-
-.text-header {
+.about-img {
+  width: 100%;
+  max-width: 350px; /* bisa diubah sesuai kebutuhan */
+  height: auto;
+  object-fit: cover;
+  /* Hapus border-radius jika tidak ingin bulat */
+  border: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+@media (max-width: 767px) {
+  .about-img {
+    max-width: 100%;
+  }
+}
+.bg-dark,
+.bg-about-dark {
   color: #fff;
 }
-
-.profile-img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-}
-
-.cert-img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-}
-
-footer {
-  font-size: 15px;
-  letter-spacing: 0.3px;
-}
-
-section {
+.slide-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   scroll-margin-top: 80px;
+}
+.navbar .nav-link {
+  font-weight: 500;
+  position: relative;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  color: #fff !important;
+}
+.navbar .nav-link.active::after,
+.navbar .nav-link:focus::after,
+.navbar .nav-link:hover::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 2.5px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+@media (max-width: 991px) {
+  .slide-section {
+    min-height: unset;
+    padding-top: 90px !important;
+    padding-bottom: 60px !important;
+  }
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
