@@ -24,6 +24,15 @@ body {
 .bg-about-dark {
   color: #fff;
 }
+.bg-about {
+  background: #e5e7eb;
+}
+.project-card {
+  transition: box-shadow 0.2s;
+}
+.project-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
 .slide-section {
   min-height: 100vh;
   display: flex;

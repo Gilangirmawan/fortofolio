@@ -12,6 +12,12 @@
         <li class="nav-item">
           <a class="nav-link <?= ($page == 'about') ? 'active' : '' ?>" href="about.php">About Me</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link <?= ($page == 'projects') ? 'active' : '' ?>" href="projects.php">My Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link <?= ($page == 'contact') ? 'active' : '' ?>" href="contact.php">Contact</a>
+        </li>
       </ul>
     </div>
   </div>

@@ -17,7 +17,7 @@
       <h2 class="mb-4 text-primary fw-bold">About Me</h2>
       <div class="row align-items-center">
         <div class="col-md-4 text-center mb-4 mb-md-0">
-          <img src="assets/foto/IMG-20250803-WA0016.jpg" alt="Foto Profil" class="img-fluid rounded-circle shadow" style="width:100%; max-width:350px;">
+          <img src="assets/foto/IMG-20250803-WA0016.jpg" alt="Foto Profil" class="img-fluid rounded shadow" style="width:100%; max-width:350px;">
         </div>
         <div class="col-md-8">
           <ul class="list-unstyled fs-5 mb-3">
@@ -37,34 +37,34 @@
             <h5 class="fw-bold mb-3 text-info">Kemampuan Bahasa Pemrograman</h5>
             <div class="mb-2">
               <span class="d-flex justify-content-between">
-                <span>PHP</span><span>90%</span>
+                <span>PHP</span><span>75%</span>
               </span>
               <div class="progress skill-progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="mb-2">
               <span class="d-flex justify-content-between">
-                <span>PYTHON</span><span>80%</span>
+                <span>PYTHON</span><span>30%</span>
               </span>
               <div class="progress skill-progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-info" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="mb-2">
               <span class="d-flex justify-content-between">
-                <span>HTML</span><span>70%</span>
+                <span>HTML</span><span>50%</span>
               </span>
               <div class="progress skill-progress">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="mb-2">
               <span class="d-flex justify-content-between">
-                <span>CSS</span><span>60%</span>
+                <span>CSS</span><span>45%</span>
               </span>
               <div class="progress skill-progress">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <!-- Tambahkan bahasa lain jika ingin -->
